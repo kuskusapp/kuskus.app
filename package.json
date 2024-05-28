@@ -70,8 +70,9 @@
   "devDependencies": {
     "@edgedb/generate": "~0.5.3",
     "@eslint/eslintrc": "3.x",
+    "@grafbase/sdk": "~0.24.0",
     "@ngneat/falso": "^7.2.0",
-    "@ronin/kus": "^0.0.0-3432618505286",
+    "@ronin/kus": "^0.0.0-3433492832021",
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -88,8 +89,7 @@
     "postcss": "^8",
     "prettier": "3.x",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5",
-    "@grafbase/sdk": "~0.24.0"
+    "typescript": "^5"
   },
   "prettier": {
     "semi": false,
