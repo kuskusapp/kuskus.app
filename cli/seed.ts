@@ -57,7 +57,7 @@ async function seed() {
 		}
 		console.log("done")
 	} catch (err) {
-		console.error("Error occurred:", err)
+		console.error("Error:", err)
 	}
 }
 

@@ -43,3 +43,4 @@ cli/run.ts
 .next-types
 cli/seed
 go/doc/openapi.json
+private

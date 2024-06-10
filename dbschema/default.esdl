@@ -87,12 +87,12 @@ module default {
 
     # user entered description for post
     description: str;
-    index fts::index on (
-    fts::with_options(
-      .description,
-      language := fts::Language.eng
-      )
-    );
+    # index fts::index on (
+    # fts::with_options(
+    #   .description,
+    #   language := fts::Language.eng
+    #   )
+    # );
 
     # description of image by image model
     aiDescription: str;
